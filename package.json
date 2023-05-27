@@ -1,5 +1,8 @@
 {
-  "name": "mui-theme",
+  "name": "@aluaders/mui-theme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/aluaders"
+  },
   "version": "0.0.1",
   "description": "A colloction of MUI themes",
   "license": "MIT",
