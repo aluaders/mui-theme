@@ -1,0 +1,20 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "usesStyledComponents": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "src/stories/mui",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": true,
+      "withLazy": false,
+      "customTemplates": {
+        "story": "src/utils/generate-react-cli/templates/TemplateName.stories.ts",
+        "component": "src/utils/generate-react-cli/templates/TemplateName.tsx"
+      }
+    }
+  }
+}
