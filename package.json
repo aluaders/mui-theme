@@ -7,22 +7,42 @@
   "description": "A colloction of MUI themes",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.2",
+    "@babel/preset-react": "^7.22.3",
+    "@babel/preset-typescript": "^7.21.5",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.1",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/addon-styling": "^1.0.8",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/react-webpack5": "^7.0.18",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.2.7",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.23.0",
     "rollup-plugin-dts": "^5.3.0",
+    "storybook": "^7.0.18",
     "typescript": "^5.0.4"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/material-icons": "^5.0.1",
+    "@fontsource/roboto": "^5.0.1",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.2",
+    "generate-react-cli": "^8.3.0",
     "tslib": "^2.5.2"
   },
   "main": "dist/cjs/index.js",
